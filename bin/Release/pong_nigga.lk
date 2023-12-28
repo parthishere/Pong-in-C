@@ -1,0 +1,28 @@
+-muwx
+-i bin/Release/pong_nigga.ihx
+-M
+-Y
+-I 0x0100
+-X 0x8000
+-C 0x8000
+-b HOME = 0x0000
+-b XSEG = 0x0005
+-b PSEG = 0x0005
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k /usr/lib
+-k /usr/bin/../share/sdcc/lib/large
+-k /usr/share/sdcc/lib/large
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+obj/Release/dotmatrix.rel
+obj/Release/expander.rel
+obj/Release/i2c.rel
+obj/Release/interrupts.rel
+obj/Release/main.rel
+obj/Release/uart.rel
+
+-e

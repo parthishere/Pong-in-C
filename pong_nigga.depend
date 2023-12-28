@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1701733547 source:/home/parth/Work/codeblocka/pong_nigga/i2c.c
+	"i2c.h"
+
+1701727840 /home/parth/Work/codeblocka/pong_nigga/i2c.h
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdio.h"
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+
+1589620177 /usr/share/sdcc/include/stdio.h
+	<stdarg.h>
+	<tinibios.h>
+	<sdcc-lib.h>
+
+1589620177 /usr/share/sdcc/include/stdint.h
+
+1700479926 source:/home/parth/Work/codeblocka/pong_nigga/uart.c
+	"uart.h"
+
+1700960953 /home/parth/Work/codeblocka/pong_nigga/uart.h
+	<mcs51/8051.h>
+
+1701733383 source:/home/parth/Work/codeblocka/pong_nigga/expander.c
+	"expander.h"
+
+1700480753 /home/parth/Work/codeblocka/pong_nigga/expander.h
+	"i2c.h"
+
+1702117609 source:/home/parth/Work/codeblocka/pong_nigga/main.c
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdio.h"
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+	"uart.h"
+	"i2c.h"
+	"expander.h"
+	"dotmatrix.h"
+	"interrupts.h"
+
+1701944586 /home/parth/Work/codeblocka/pong_nigga/dotmatrix.h
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+	"interrupts.h"
+
+1702119061 source:/home/parth/Work/codeblocka/pong_nigga/dotmatrix.c
+	"dotmatrix.h"
+	"/usr/share/sdcc/include/stdio.h"
+
+1701741701 source:/home/parth/Work/codeblocka/pong_nigga/interrupts.c
+	"interrupts.h"
+
+1701728145 /home/parth/Work/codeblocka/pong_nigga/interrupts.h
+	<mcs51/8051.h>
+
+1589620177 /usr/share/sdcc/include/string.h
+
+1702122146 source:/home/parth/Work/codeblocka/pong/dotmatrix.c
+	"dotmatrix.h"
+	"/usr/share/sdcc/include/stdio.h"
+
+1701944586 /home/parth/Work/codeblocka/pong/dotmatrix.h
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+	"interrupts.h"
+
+1701728145 /home/parth/Work/codeblocka/pong/interrupts.h
+	<mcs51/8051.h>
+
+1701733383 source:/home/parth/Work/codeblocka/pong/expander.c
+	"expander.h"
+
+1700480753 /home/parth/Work/codeblocka/pong/expander.h
+	"i2c.h"
+
+1701727840 /home/parth/Work/codeblocka/pong/i2c.h
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdio.h"
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+
+1701733547 source:/home/parth/Work/codeblocka/pong/i2c.c
+	"i2c.h"
+
+1701741701 source:/home/parth/Work/codeblocka/pong/interrupts.c
+	"interrupts.h"
+
+1702117609 source:/home/parth/Work/codeblocka/pong/main.c
+	<mcs51/8051.h>
+	"/usr/share/sdcc/include/stdio.h"
+	"/usr/share/sdcc/include/stdint.h"
+	<at89c51ed2.h>
+	"uart.h"
+	"i2c.h"
+	"expander.h"
+	"dotmatrix.h"
+	"interrupts.h"
+
+1700960953 /home/parth/Work/codeblocka/pong/uart.h
+	<mcs51/8051.h>
+
+1700479926 source:/home/parth/Work/codeblocka/pong/uart.c
+	"uart.h"
+
